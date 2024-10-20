@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation.html</title>
+
+
+    <style>
+        /*For the animation*/
+        @keyframes keyframesample{
+            0%  {background-color: red;}
+            20% {background-color:blueviolet;}
+            40% {background-color:dodgerblue;}
+            60% {background-color:limegreen;}
+            80% {background-color:midnightblue;}
+            100%{background-color:seagreen;}
+        }
+
+        /*applying the animation to the element*/
+        body {
+            width: 150px;
+            height:150px;
+            background-color: goldenrod;
+            animation-name: keyframesample; 
+            animation-duration: 5s;
+        }
+    </style>
+</head>
+<body>
+    <div>hello</div>
+</body>
+</html>
